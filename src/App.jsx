@@ -41,7 +41,7 @@ const App = () => {
         transition={{ delay: 1 }}
         className="p-6 text-center border-t border-[var(--color-border)] text-[var(--color-text-secondary)]"
       >
-        © 2024 SoftSell. All rights reserved.
+        © 2025 Mohit Taneja. All rights reserved.
       </motion.footer>
       <ChatWidget darkMode={darkMode} />
     </motion.div>

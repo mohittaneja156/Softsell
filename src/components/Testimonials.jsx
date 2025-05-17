@@ -58,7 +58,7 @@ const Testimonials = () => {
             className="font-semibold text-[var(--color-primary)]"
             whileHover={{ scale: 1.05 }}
           >
-            John Doe
+            Manthan Mangla
           </motion.p>
           <p className="text-sm text-[var(--color-secondary)]">
             Software Engineer, TechCorp
@@ -77,7 +77,7 @@ const Testimonials = () => {
             className="font-semibold text-[var(--color-primary)]"
             whileHover={{ scale: 1.05 }}
           >
-            Jane Smith
+            Ridhi Taneja
           </motion.p>
           <p className="text-sm text-[var(--color-secondary)]">
             IT Manager, Business Solutions

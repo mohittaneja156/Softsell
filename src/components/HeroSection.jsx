@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const HeroSection = ({ darkMode }) => {
   return (
-    <section className="py-32 px-6 bg-[var(--color-background)]">
+    <section className="py-10 px-6 bg-[var(--color-background)]">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
         <motion.div 
           className="flex-1 text-left"

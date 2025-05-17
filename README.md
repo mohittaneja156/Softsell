@@ -64,7 +64,7 @@ SoftSell is a modern, responsive web application that facilitates the selling of
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/softsell.git
+git clone https://github.com/mohittaneja156/softsell.git
 
 # Navigate to project directory
 cd softsell
@@ -107,10 +107,10 @@ npm run dev
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](LICENSE)
 
 ## Author
-Your Name - [Your Website/GitHub]
+Your Name - Mohit Taneja
 
 ## Acknowledgments
 - React.js community
