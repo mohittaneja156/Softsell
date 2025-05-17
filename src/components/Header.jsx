@@ -18,7 +18,7 @@ const Header = ({ darkMode, setDarkMode }) => {
           className="flex items-center gap-2"
         >
           <img 
-            src="/public/software-svgrepo-com.svg" 
+            src="/software-svgrepo-com.svg" 
             alt="SoftSell Logo" 
             className="w-8 h-8 fill-current text-[var(--color-primary)]"
             style={{ filter: darkMode ? 'invert(1)' : 'none' }}
