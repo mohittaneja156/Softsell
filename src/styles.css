@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  /* Professional Light Theme */
+  --color-background: #ffffff;
+  --color-surface: #f8fafc;    /* slate-50 */
+  --color-primary: #0369a1;    /* sky-700 - main brand color */
+  --color-secondary: #475569;  /* slate-600 - supporting color */
+  --color-accent: #0284c7;     /* sky-600 - call to action */
+  --color-text: #1e293b;       /* slate-800 - main text */
+  --color-text-secondary: #64748b; /* slate-500 - supporting text */
+  --color-border: #e2e8f0;     /* slate-200 */
+  --color-success: #059669;    /* emerald-600 */
+  --color-error: #dc2626;      /* red-600 */
+}
+
+.dark {
+  /* Professional Dark Theme */
+  --color-background: #0f172a;  /* slate-900 */
+  --color-surface: #1e293b;    /* slate-800 */
+  --color-primary: #38bdf8;    /* sky-400 */
+  --color-secondary: #94a3b8;  /* slate-400 */
+  --color-accent: #0ea5e9;     /* sky-500 */
+  --color-text: #f8fafc;       /* slate-50 */
+  --color-text-secondary: #cbd5e1; /* slate-300 */
+  --color-border: #334155;     /* slate-700 */
+  --color-success: #34d399;    /* emerald-400 */
+  --color-error: #f87171;      /* red-400 */
+}
+
+/* Custom utility classes */
+@layer utilities {
+  .bg-theme-primary {
+    background-color: var(--color-primary);
+  }
+  .bg-theme-surface {
+    background-color: var(--color-surface);
+  }
+  .text-theme-primary {
+    color: var(--color-primary);
+  }
+  .text-theme-secondary {
+    color: var(--color-text-secondary);
+  }
+  .border-theme {
+    border-color: var(--color-border);
+  }
+}
